@@ -153,7 +153,7 @@
 			                <mailpassword>${mail.password}</mailpassword>
 			                <from>qa-automation@io-media.com</from>
 			                <receivers>
-			                    <receiver>syed.rizvi@ticketmaster.com</receiver>
+			                    <receiver>nam-automation@livenation.com</receiver>
 			                </receivers>
 			                <subject>Automation framework new build version : ${project.version}</subject>
 			                <failonerror>false</failonerror>
