@@ -153,7 +153,7 @@
 			                <mailpassword>${mail.password}</mailpassword>
 			                <from>qa-automation@io-media.com</from>
 			                <receivers>
-			                    <receiver>syed.rizvi@ticketmaster.com</receiver>
+			                    <receiver>nam-automation@livenation.com</receiver>
 			                </receivers>
 			                <subject>Automation framework new build version : ${project.version}</subject>
 			                <failonerror>false</failonerror>
@@ -336,5 +336,11 @@
 	    <artifactId>org.liveSense.fragment.sun.misc</artifactId>
 	    <version>1.0.5</version>
 	</dependency>
+	<dependency>
+    <groupId>net.lightbody.bmp</groupId>
+    <artifactId>browsermob-core</artifactId>
+    <version>2.1.5</version>
+     <scope>compile</scope>
+</dependency>
   </dependencies>
 </project>
